@@ -6,7 +6,7 @@ import pickle
 st.title("Human Activity Recognition Prediction")
 
 # Load pre-trained model
-model_path = r"C:\Users\HP\Downloads\keerthi\model.h5"
+model_path = "model.h5"
 model = tf.keras.models.load_model(model_path)
 
 # Load the scaler
